@@ -1,0 +1,10 @@
+mean=38
+total=40
+correct=56
+wrong=36
+sum=mean*total
+print("sum=",sum)
+actual_value=sum-(wrong-correct)
+print("actual value=",actual_value)
+actual_mean=actual_value/total
+print("actual mean=",actual_mean)
