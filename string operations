@@ -1,0 +1,4 @@
+ow="congratulations"
+nw=ow.upper()
+print("the new word is",nw)
+
