@@ -9,4 +9,4 @@ else:
         count += 1
         
 
-print(f"Total digits in the number: {count}")
+print(f"Total digits in the number
