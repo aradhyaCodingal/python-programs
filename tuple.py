@@ -1,0 +1,10 @@
+tuple1=("abc",123,20.6,False)
+print(tuple1)
+tuple2=(1,2,3,4,5)
+print(tuple2)
+tuple2=tuple2+(9,)
+print(tuple2)
+tuple3=(10,20,30,20,10)
+print(tuple3.count(10))
+print(tuple3[2:4])
+
