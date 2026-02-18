@@ -14,8 +14,7 @@
     <script>
         async function main() {
             let pyodide = await loadPyodide();
-            let result = pyodide.runPython(`
-import random
+            let result = pyodide.runPython(import random
 while True:
     user=input("enter rock paper or scissors")
     possibleactions=["rock","paper","scissors"]
