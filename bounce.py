@@ -14,7 +14,7 @@ class Sprite(pygame.sprite.Sprite):
     def __init__(self,color,height,width):
         super().__init__()
         self.image=pygame.Surface([width,height])
-        self.image,fill(color)
+        self.image.fill(color)
         self.rect=self.image.get_rect()
         self.velocity=[random.choice([-1,1]), random.choice([-1,1])] 
     def update(self):
